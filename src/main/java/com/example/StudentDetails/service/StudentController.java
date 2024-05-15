@@ -17,7 +17,7 @@ public class StudentController {
     @Operation(summary = "Add a new student")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "201", description = "Student added successfully"),
-            @ApiResponse(responseCode = "400", description = "Invalid input data"),
+            @ApiResponse(responseCode = "404", description = "Invalid input data"),
             @ApiResponse(responseCode = "500", description = "Internal server error")
     })
 
